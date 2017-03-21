@@ -7,7 +7,6 @@ import (
 )
 
 func main() {
-	os.Setenv("PORT", "3001")
-	port := "3001"
+	port := os.Getenv("PORT")
 	controller.Start().Listen(":" + port)
 }
