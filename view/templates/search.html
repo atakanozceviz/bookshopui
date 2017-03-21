@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+{{template "header" .}}
+<body>
+<div id="wrapper">
+    {{template "sidebar" .}}
+    <div id="page-wrapper" class="gray-bg">
+        {{template "navbar" .}}
+        <div class="wrapper wrapper-content animated fadeInRight">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="wrapper wrapper-content animated fadeInRight">
+                        <div class="row">
+                            <div id="resrow">
+                                {{range .Books}}
+                                {{template "results" .}}
+                                {{end}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{template "footer"}}
+    </div>
+</div>
+{{template "scripts"}}
+{{template "modals"}}
+</body>
+
+</html>

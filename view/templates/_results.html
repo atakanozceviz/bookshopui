@@ -1,0 +1,26 @@
+{{define "results"}}
+<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="ibox">
+        <div class="ibox-content product-box">
+
+            <div>
+                <img class="img-thumbnail bookimg"
+                     src="{{.Img}}">
+            </div>
+            <div class="product-desc">
+                <span class="product-price">{{.Price}}</span>
+                <small class="text-muted">{{.Author}}</small>
+                <a target="_blank" href="{{.WebSite}}" class="product-name">{{.Title}}</a>
+                <div class="small m-t-xs"> {{.Publisher}}</div>
+
+                <div class="m-t text-righ">
+                    <a href="#" class="btn btn-xs btn-outline btn-primary" data-img="{{.Img}}"
+                       data-title="{{.Title}}" data-publisher="{{.Publisher}}"
+                       data-price="{{.Price}}" data-author="{{.Author}}" onclick="ekle(this)">Ekle
+                        <i class="fa fa-long-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{end}}

@@ -1,0 +1,10 @@
+.bookimg {
+    width: 100%;
+    height: auto;
+}
+
+.mdlimg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
