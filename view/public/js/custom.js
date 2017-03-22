@@ -3,14 +3,7 @@ $("#search").submit(function (e) {
     e.preventDefault();
     var form = $(this).serialize();
     var req = "/search/?" + form;
-    $.ajax({
-        type: "GET",
-        url: req,
-        data: form,
-        success: function (data) {
-            $("#resrow").load(req + " #resrow");
-        }
-    });
+    $("#resrow").load(req + " #resrow");
 });
 //ekleModal
 function ekle(e) {
