@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {{template "header" .}}
+</head>
+
+<body class="gray-bg">
+
+<div class="middle-box text-center loginscreen animated fadeInDown">
+    <div>
+        <div>
+
+            <img src="../public/img/favicon/logo.png" alt="">
+
+        </div>
+        <h3>Hoşgeldiniz</h3>
+        <p>
+            Lütfen giriş yapınız.
+        </p>
+        <form class="m-t" role="form" id="girisForm">
+            <div class="form-group">
+                <input name="KAdi" type="text" class="form-control" placeholder="Kullanıcı adı" required>
+            </div>
+            <div class="form-group">
+                <input name="KSifre" type="password" class="form-control" placeholder="Şifre" required>
+            </div>
+            <button type="submit" class="btn btn-primary block full-width m-b">Giriş</button>
+
+            <a href="#">
+                <small>Şifremi unuttum</small>
+            </a>
+        </form>
+    </div>
+</div>
+<!-- Mainly scripts -->
+<script src="../public/js/jquery-3.1.1.min.js"></script>
+<script src="../public/js/bootstrap.min.js"></script>
+<script>// this is the id of the form
+$("#girisForm").submit(function (e) {
+    e.preventDefault();
+    $.ajax({
+        type: "POST",
+        url: "/girisYap",
+        data: $("#girisForm").serialize(),
+        success: function () {
+            location.reload();
+        }
+    });
+});
+</script>
+</body>
+
+</html>
