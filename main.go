@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	port := "8080" //os.Getenv("PORT")
+	port := os.Getenv("PORT")
 	controller.Start().Listen(":" + port)
 }
