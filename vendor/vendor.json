@@ -1,11 +1,9 @@
 {
 	"comment": "",
-	"heroku": {
-		"goVersion": "go1.8",
-		"install": [
-			"./..."
-		]
-	},
+    "heroku": {
+        "install" : [ "./..." ],
+        "goVersion": "go1.8"
+         },
 	"ignore": "test",
 	"package": [
 		{
@@ -28,52 +26,62 @@
 		},
 		{
 			"checksumSHA1": "2dUCyhehge7/6C4teRsHvuxs7Fw=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/Joker/jade",
 			"path": "github.com/Joker/jade",
 			"revision": "35b3f5bdbcc920cd31f4870536dbc63be8530541",
 			"revisionTime": "2016-12-30T13:27:39Z"
 		},
 		{
+			"checksumSHA1": "rtEYL6B4peLHMACGa8R4Jf7r5ms=",
 			"path": "github.com/atakanozceviz/bookshopui",
-			"revision": ""
+			"revision": "7b25a828999e58d9c71253574db2b3cda8628bdb",
+			"revisionTime": "2017-03-25T18:19:22Z"
 		},
 		{
 			"checksumSHA1": "PZ4KJai7DnuJ2YNJ2v2l2BseB1g=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/aymerick/raymond",
 			"path": "github.com/aymerick/raymond",
 			"revision": "72acac2207479d21dd45898c2a4264246c818148",
 			"revisionTime": "2016-12-09T22:07:24Z"
 		},
 		{
 			"checksumSHA1": "Rvn+RH9pwFno1w6W+mhWsj/PxlA=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/aymerick/raymond/ast",
 			"path": "github.com/aymerick/raymond/ast",
 			"revision": "72acac2207479d21dd45898c2a4264246c818148",
 			"revisionTime": "2016-12-09T22:07:24Z"
 		},
 		{
 			"checksumSHA1": "5SJwPK0MYtJt5YiE1BNc9Wl3+S0=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/aymerick/raymond/lexer",
 			"path": "github.com/aymerick/raymond/lexer",
 			"revision": "72acac2207479d21dd45898c2a4264246c818148",
 			"revisionTime": "2016-12-09T22:07:24Z"
 		},
 		{
 			"checksumSHA1": "TCu/8QBP8TApLjSt13a7Qjnyxrs=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/aymerick/raymond/parser",
 			"path": "github.com/aymerick/raymond/parser",
 			"revision": "72acac2207479d21dd45898c2a4264246c818148",
 			"revisionTime": "2016-12-09T22:07:24Z"
 		},
 		{
 			"checksumSHA1": "+P+xR6tspRvmB52wgMmmgvaFXKs=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/eknkc/amber",
 			"path": "github.com/eknkc/amber",
 			"revision": "d15eb996544134263b00cce829b5bc4988fdb2df",
 			"revisionTime": "2017-03-11T20:55:04Z"
 		},
 		{
 			"checksumSHA1": "P1/+WF6lPqJfvf0HqBB3TTTVP7Y=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/eknkc/amber/parser",
 			"path": "github.com/eknkc/amber/parser",
 			"revision": "d15eb996544134263b00cce829b5bc4988fdb2df",
 			"revisionTime": "2017-03-11T20:55:04Z"
 		},
 		{
 			"checksumSHA1": "OzBOiWmrQsdEFLW1oke9IHwMQn4=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/flosch/pongo2",
 			"path": "github.com/flosch/pongo2",
 			"revision": "1d0f0d3af150c4a65dfd424d742f7374819e7d29",
 			"revisionTime": "2017-02-27T15:55:00Z"
@@ -128,6 +136,7 @@
 		},
 		{
 			"checksumSHA1": "Bdv3B/DmBMfxjvo9zZN6va01S7Y=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/google/go-github/github",
 			"path": "github.com/google/go-github/github",
 			"revision": "d683a1c6198d75c6be7a7ab5e2f9834cb6408834",
 			"revisionTime": "2017-03-21T16:33:37Z"
@@ -140,18 +149,21 @@
 		},
 		{
 			"checksumSHA1": "tUGxc7rfX0cmhOOUDhMuAZ9rWsA=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/hashicorp/go-version",
 			"path": "github.com/hashicorp/go-version",
 			"revision": "03c5bf6be031b6dd45afec16b1cf94fc8938bc77",
 			"revisionTime": "2017-02-02T08:07:59Z"
 		},
 		{
 			"checksumSHA1": "hwGdeQbcfc2RvIQS5wAaYRKJDd4=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/imdario/mergo",
 			"path": "github.com/imdario/mergo",
 			"revision": "50d4dbd4eb0e84778abe37cefef140271d96fade",
 			"revisionTime": "2016-05-17T06:44:35Z"
 		},
 		{
 			"checksumSHA1": "0E4y2pf0YwUr2i0rZhXBTh+UpR4=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/iris-contrib/formBinder",
 			"path": "github.com/iris-contrib/formBinder",
 			"revision": "81b6a071e35797b83562caf4b3cad24dc01912dc",
 			"revisionTime": "2016-12-15T10:50:04Z"
@@ -164,48 +176,56 @@
 		},
 		{
 			"checksumSHA1": "rc2Z6cl2d9fvnBxSL2IhhVMJZnA=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/kataras/go-errors",
 			"path": "github.com/kataras/go-errors",
 			"revision": "6fb46ef666f60ce19b5cc73906d531645d5bf8bc",
 			"revisionTime": "2017-02-27T03:31:44Z"
 		},
 		{
 			"checksumSHA1": "Wt7IQViAEMdmtqLOFjc0GyCNPAk=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/kataras/go-template",
 			"path": "github.com/kataras/go-template",
 			"revision": "a4a986b413e8d88ebd894b4a3e327314069f2439",
 			"revisionTime": "2017-03-09T13:33:09Z"
 		},
 		{
 			"checksumSHA1": "U2fPA2m++D5/qJ/Se4cmT36zwjQ=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/kataras/go-template/amber",
 			"path": "github.com/kataras/go-template/amber",
 			"revision": "a4a986b413e8d88ebd894b4a3e327314069f2439",
 			"revisionTime": "2017-03-09T13:33:09Z"
 		},
 		{
 			"checksumSHA1": "c8T/LV+Z4fb/UiZJc/RL/Rrbp5c=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/kataras/go-template/django",
 			"path": "github.com/kataras/go-template/django",
 			"revision": "a4a986b413e8d88ebd894b4a3e327314069f2439",
 			"revisionTime": "2017-03-09T13:33:09Z"
 		},
 		{
 			"checksumSHA1": "DEJ5NNnoGdU0S/C+yQXTkRAuSjw=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/kataras/go-template/handlebars",
 			"path": "github.com/kataras/go-template/handlebars",
 			"revision": "a4a986b413e8d88ebd894b4a3e327314069f2439",
 			"revisionTime": "2017-03-09T13:33:09Z"
 		},
 		{
 			"checksumSHA1": "D+rA4C4aTWlXRhROhIwsMXcWqsM=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/kataras/go-template/html",
 			"path": "github.com/kataras/go-template/html",
 			"revision": "a4a986b413e8d88ebd894b4a3e327314069f2439",
 			"revisionTime": "2017-03-09T13:33:09Z"
 		},
 		{
 			"checksumSHA1": "+CqJGh7NIDMnHgScq9sl9tPrnVM=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/klauspost/compress/flate",
 			"path": "github.com/klauspost/compress/flate",
 			"revision": "14c9a76e3c95e47f8ccce949bba2c1101a8b85e6",
 			"revisionTime": "2017-02-18T08:16:04Z"
 		},
 		{
 			"checksumSHA1": "V1lQwkoDR1fPmZBSgkmZjgZofeU=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/klauspost/compress/gzip",
 			"path": "github.com/klauspost/compress/gzip",
 			"revision": "14c9a76e3c95e47f8ccce949bba2c1101a8b85e6",
 			"revisionTime": "2017-02-18T08:16:04Z"
@@ -218,12 +238,14 @@
 		},
 		{
 			"checksumSHA1": "iKPMvbAueGfdyHcWCgzwKzm8WVo=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/klauspost/cpuid",
 			"path": "github.com/klauspost/cpuid",
 			"revision": "09cded8978dc9e80714c4d85b0322337b0a1e5e0",
 			"revisionTime": "2016-03-02T07:53:16Z"
 		},
 		{
 			"checksumSHA1": "BM6ZlNJmtKy3GBoWwg2X55gnZ4A=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/klauspost/crc32",
 			"path": "github.com/klauspost/crc32",
 			"revision": "1bab8b35b6bb565f92cbc97939610af9369f942a",
 			"revisionTime": "2017-02-10T14:05:23Z"
@@ -236,24 +258,28 @@
 		},
 		{
 			"checksumSHA1": "DWtoL5LzvhxQ6LuchRPoSbsNhp4=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/microcosm-cc/bluemonday",
 			"path": "github.com/microcosm-cc/bluemonday",
 			"revision": "e79763773ab6222ca1d5a7cbd9d62d83c1f77081",
 			"revisionTime": "2016-12-02T14:38:24Z"
 		},
 		{
 			"checksumSHA1": "c7jHQZk5ZEsFR9EXsWJXkszPBZA=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/russross/blackfriday",
 			"path": "github.com/russross/blackfriday",
 			"revision": "5f33e7b7878355cd2b7e6b8eefc48a5472c69f70",
 			"revisionTime": "2016-10-03T16:27:22Z"
 		},
 		{
 			"checksumSHA1": "kbgJvKG3NRoqU91rYnXGnyR+8HQ=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/shurcooL/sanitized_anchor_name",
 			"path": "github.com/shurcooL/sanitized_anchor_name",
 			"revision": "1dba4b3954bc059efc3991ec364f9f9a35f597d2",
 			"revisionTime": "2016-09-18T04:11:01Z"
 		},
 		{
 			"checksumSHA1": "LTOa3BADhwvT0wFCknPueQALm8I=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/github.com/valyala/bytebufferpool",
 			"path": "github.com/valyala/bytebufferpool",
 			"revision": "e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7",
 			"revisionTime": "2016-08-17T18:16:52Z"
@@ -303,26 +329,26 @@
 		{
 			"checksumSHA1": "Y+HGqEkYM15ir+J93MEaHdyFy0c=",
 			"path": "golang.org/x/net/context",
-			"revision": "3e967e1d28d2c9c06e749dc2bdc14b04df89e689",
-			"revisionTime": "2017-03-19T17:08:14Z"
+			"revision": "6c23252515492caf9b228a9d5cabcdbde29f7f82",
+			"revisionTime": "2017-03-24T21:59:51Z"
 		},
 		{
 			"checksumSHA1": "WHc3uByvGaMcnSoI21fhzYgbOgg=",
 			"path": "golang.org/x/net/context/ctxhttp",
-			"revision": "3e967e1d28d2c9c06e749dc2bdc14b04df89e689",
-			"revisionTime": "2017-03-19T17:08:14Z"
+			"revision": "6c23252515492caf9b228a9d5cabcdbde29f7f82",
+			"revisionTime": "2017-03-24T21:59:51Z"
 		},
 		{
 			"checksumSHA1": "vqc3a+oTUGX8PmD0TS+qQ7gmN8I=",
 			"path": "golang.org/x/net/html",
-			"revision": "3e967e1d28d2c9c06e749dc2bdc14b04df89e689",
-			"revisionTime": "2017-03-19T17:08:14Z"
+			"revision": "6c23252515492caf9b228a9d5cabcdbde29f7f82",
+			"revisionTime": "2017-03-24T21:59:51Z"
 		},
 		{
 			"checksumSHA1": "00eQaGynDYrv3tL+C7l9xH0IDZg=",
 			"path": "golang.org/x/net/html/atom",
-			"revision": "3e967e1d28d2c9c06e749dc2bdc14b04df89e689",
-			"revisionTime": "2017-03-19T17:08:14Z"
+			"revision": "6c23252515492caf9b228a9d5cabcdbde29f7f82",
+			"revisionTime": "2017-03-24T21:59:51Z"
 		},
 		{
 			"checksumSHA1": "WPEbk80NB3Esdh4Yk0PXr2K7xVU=",
@@ -375,29 +401,30 @@
 		{
 			"checksumSHA1": "C2mNkLQTvn63RFqqj2bGkvw1nM0=",
 			"path": "gopkg.in/kataras/iris.v6",
-			"revision": "3fb666aa6d47a362b065da874ed91010f8ee1442",
-			"revisionTime": "2017-03-24T00:51:10Z"
+			"revision": "0965773755df7ee4e126ca6991bce7d867503c49",
+			"revisionTime": "2017-03-24T11:00:55Z"
 		},
 		{
-			"checksumSHA1": "ZzS8SYgOvYEJXflcf74X+XmY+FI=",
+			"checksumSHA1": "w+b2+3UjGwrurinek2YKpYmY0mI=",
 			"path": "gopkg.in/kataras/iris.v6/adaptors/httprouter",
-			"revision": "3fb666aa6d47a362b065da874ed91010f8ee1442",
-			"revisionTime": "2017-03-24T00:51:10Z"
+			"revision": "0965773755df7ee4e126ca6991bce7d867503c49",
+			"revisionTime": "2017-03-24T11:00:55Z"
 		},
 		{
 			"checksumSHA1": "8fvHmnfIH2dfadM33GcLtFhSgss=",
 			"path": "gopkg.in/kataras/iris.v6/adaptors/sessions",
-			"revision": "3fb666aa6d47a362b065da874ed91010f8ee1442",
-			"revisionTime": "2017-03-24T00:51:10Z"
+			"revision": "0965773755df7ee4e126ca6991bce7d867503c49",
+			"revisionTime": "2017-03-24T11:00:55Z"
 		},
 		{
 			"checksumSHA1": "w7REUTeqYQjdybJ8Hz4lDwXYwX4=",
 			"path": "gopkg.in/kataras/iris.v6/adaptors/view",
-			"revision": "3fb666aa6d47a362b065da874ed91010f8ee1442",
-			"revisionTime": "2017-03-24T00:51:10Z"
+			"revision": "0965773755df7ee4e126ca6991bce7d867503c49",
+			"revisionTime": "2017-03-24T11:00:55Z"
 		},
 		{
 			"checksumSHA1": "0KwOlQV1dNUh9X8t+5s7nX5bqfk=",
+			"origin": "github.com/atakanozceviz/bookshopui/vendor/gopkg.in/yaml.v2",
 			"path": "gopkg.in/yaml.v2",
 			"revision": "a3f3340b5840cee44f372bddb5880fcbc419b46a",
 			"revisionTime": "2017-02-08T14:18:51Z"

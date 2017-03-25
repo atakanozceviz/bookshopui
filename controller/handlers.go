@@ -14,7 +14,6 @@ import (
 func Start() *iris.Framework {
 	app := iris.New()
 	app.Adapt(
-		iris.DevLogger(),
 		httprouter.New(),
 		view.HTML("./view/templates/", ".html"),
 		sess,
