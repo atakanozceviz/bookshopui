@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	controller.Start().ListenLETSENCRYPT("localhost:443")
+	controller.Start().ListenLETSENCRYPT(":443")
 }
